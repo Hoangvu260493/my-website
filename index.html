@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mai Xanh Tươi Việt Nam</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #e0f2f1;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #388e3c;
+            color: white;
+        }
+        header h1 {
+            font-size: 36px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        .banner img {
+            width: 100%;
+        
+        }
+        .intro, .products, .contact {
+            padding: 20px;
+        }
+        .product-item {
+            display: inline-block;
+            width: 45%;
+            text-align: center;
+            margin: 10px;
+        }
+        .product-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .contact-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .contact a {
+            flex: 1;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            background: #00796b;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .contact a:hover {
+            background: #004d40;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .phone-button {
+            flex: 1;
+            padding: 10px;
+            background: #00796b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            text-align: center;
+        }
+        .phone-button:hover {
+            background: #004d40;
+        }
+        .icon {
+            margin-right: 10px;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mai Xanh Miền Trung</h1>
+        </header>
+        <section class="banner">
+            <img src="1.jpg" alt="Mai Xanh đẹp">
+        </section>
+        <section class="intro">
+            <h2>Giới thiệu về Mai Xanh</h2>
+            <p>Mai Xanh là loài cây quý, mang vẻ đẹp thanh tao, phù hợp để làm cảnh và trang trí sân vườn. Với sắc xanh tươi mát, cây Mai Xanh mang đến không gian thiên nhiên hài hòa, giúp cải thiện không khí và tạo cảm giác thư thái.</p>
+            <p>Có nhiều loại Mai trên thị trường, phổ biến nhất là Mai Vàng miền Nam, Mai Bình Định và Mai Xanh. Trong khi Mai Vàng và Mai Bình Định có hoa vàng rực rỡ, Mai Xanh mang nét đẹp riêng với sắc lá xanh mướt quanh năm và hoa tím nhẹ nhàng. Cây Mai Xanh phát triển tốt trong điều kiện khí hậu nhiệt đới, ít cần chăm sóc nhưng vẫn cho hoa nở rực rỡ.</p>
+            <p>Việc chăm sóc Mai Xanh từ khi còn là cây con mang lại nhiều lợi ích. Khi được nuôi dưỡng từ nhỏ, cây phát triển khỏe mạnh, bộ rễ vững chắc giúp tăng tuổi thọ và sức đề kháng với môi trường. Ngoài ra, người trồng có thể tạo dáng bonsai theo ý muốn, mang lại giá trị thẩm mỹ và kinh tế cao hơn khi cây trưởng thành. Chăm sóc Mai Xanh từ giai đoạn sớm không chỉ giúp cây phát triển ổn định mà còn tạo sự gắn kết giữa người trồng và cây, mang lại niềm vui và cảm giác thư giãn trong cuộc sống.</p>
+            <p>Với kinh nghiệm nhiều năm trong lĩnh vực cây cảnh, chúng tôi cam kết cung cấp những cây Mai Xanh chất lượng cao, đảm bảo sức khỏe cây tốt và giá cả hợp lý. Hãy liên hệ với chúng tôi để sở hữu một cây Mai Xanh tuyệt đẹp cho không gian của bạn!</p>
+        </section>
+        <section class="products">
+            <h2>Sản phẩm</h2>
+            <div class="product-item">
+                <img src="2.jpg" alt="Mai Xanh 1">
+                <p>Cây Mai Xanh 70cm - 400.000 VNĐ</p>
+            </div>
+            <div class="product-item">
+                <img src="4.jpg" alt="Mai Xanh 2">
+                <p>Cây Mai Xanh bonsai - 500.000 VNĐ</p>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Liên hệ</h2>
+            <div class="contact-buttons">
+                <a href="https://m.me/yourpage" class="messenger"><i class="fab fa-facebook-messenger icon"></i>Nhắn tin qua Messenger</a>
+                <a href="https://zalo.me/yourzalo" class="zalo"><i class="fas fa-phone icon"></i>Liên hệ qua Zalo</a>
+                <a href="tel:0914655361" class="phone-button"><i class="fas fa-phone icon"></i>Phone 0914655361</a>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt icon"></i> 28 Tống Duy Tân, Phường Hòa Minh, Quận Liên Chiểu, TP Đà Nẵng</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
